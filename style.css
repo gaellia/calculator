@@ -1,0 +1,82 @@
+#container {
+    width: 600px;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 20px 10px;
+    background: #CCD7E4;
+    border-radius: 0px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.col-3 {
+    padding: 10px;
+    align-content: center;
+}
+
+.col-12 {
+    padding: 10px;
+    text-align: right;
+}
+  
+.col-12 #display {
+    padding: 10px;
+    border-style: solid;
+    border-color: #717C89;
+    background-color: #F8F7F4;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.dark-button {
+    width: 100%;
+    height: 110%;
+    font-size: 20px;
+    text-align: center;
+    border-color: #084887;
+    border-style: solid;
+    border-radius:5px;
+    border-width: 2px;
+    background-color: #CACCD3;
+}
+
+.light-button {
+    width: 100%;
+    height: 110%;
+    font-size: 20px;
+    text-align: center;
+    border-color: #2e6caa;
+    border-style: solid;
+    border-radius:5px;
+    border-width: 2px;
+    background-color: #F8F7F4;
+}
+
+.blue-button {
+    width: 100%;
+    height: 110%;
+    font-size: 20px;
+    text-align: center;
+    color: #F8F7F4;
+    border-color: #2e6caa;
+    border-style: solid;
+    border-radius:5px;
+    border-width: 2px;
+    background-color: #618AB2;
+}
+
+.dark-button:hover, .light-button:hover {
+    background-color: #DDDEE3;
+}
+
+.blue-button:hover {
+    background-color: #6F94B9;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+      max-width: 100%;
+    }
+}
