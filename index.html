@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Calculator</title>
+        <link href="style.css" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <span id="topAns"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <span id="display">0</span>
+                </div>
+            </div>
+
+            <!-- Calculator Body -->
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="dark-button" onclick="calc(this.id)" id="(">(</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="dark-button" onclick="calc(this.id)" id=")">)</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="dark-button" onclick="calc(this.id)" id="%"></button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="dark-button" onclick="calc(this.id)" id="AC">AC</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id="7">7</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id="8">8</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id="9">9</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="dark-button" onclick="calc(this.id)" id="/">/</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id="4">4</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id="5">5</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id="6">6</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="dark-button" onclick="calc(this.id)" id="*">*</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id="1">1</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id="2">2</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id="3">3</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="dark-button" onclick="calc(this.id)" id="-">-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id="0">0</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="light-button" onclick="calc(this.id)" id=".">.</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="blue-button" onclick="calc(this.id)" id="=">=</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="dark-button" onclick="calc(this.id)" id="+">+</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <!-- Personal Listener Script -->
+        <script src="script.js"></script>
+    </body>
+</html>
