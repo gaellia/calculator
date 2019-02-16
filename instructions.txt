@@ -1,0 +1,5 @@
+URL: https://gaellia.github.io/calculator/
+
+The browser that this app was tested on was Google Chrome Version 72.0.3626.109 (Official Build) (64-bit).
+
+To deploy this calculator, put index.html, style.css, and script.js in one folder and open index.html in a browser.
